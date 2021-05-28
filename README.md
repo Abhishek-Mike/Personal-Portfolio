@@ -7,3 +7,5 @@ Link ----> https://abhishek-mike.github.io/Personal-Portfolio/
 2)  Independent Projects to updated after hosting 
 3) 'Skill Tab' to be created
 4) 'Experience Tab' to be added
+5) 'Know More' to be added
+6) 'Clients' to be added
