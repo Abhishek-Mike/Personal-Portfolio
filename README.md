@@ -9,3 +9,4 @@ Link ----> https://abhishek-mike.github.io/Personal-Portfolio/
 4) 'Experience Section' to be added
 5) 'Know More' to be added
 6) 'Clients' page to be added
+7)  Non-Hostable JS Projects to be added
