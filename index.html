@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="app.js">
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
   <div>
@@ -33,7 +34,7 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">Skill</a>
+              <a class="nav-link" href="./skill.html">Skill</a>
             </li>
             
             <li class="nav-item dropdown">
@@ -41,9 +42,9 @@
                 Features
               </a>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Experience</a></li>
-                <li><a class="dropdown-item" href="#">Resume</a></li>
-                <li><a class="dropdown-item" href="#">Clients</a></li>
+                <li><a class="dropdown-item" href="./exp.html">Experience</a></li>
+                <li><a class="dropdown-item" href="./Images/Abhishek_Sadhu_2.5YOE.pdf">Resume</a></li>
+                <li><a class="dropdown-item" href="./clients.html">Clients</a></li>
               </ul>
             </li>
 
@@ -82,16 +83,21 @@
       <div class="col-lg-6 col-md-6 col-12">
         <h2>Wanna Know me?</h2>
         <hr>
-        <p>I am a Full stack developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks,
+        <p>
+          From graduating in Mechanical engineering at GLA University, To become a 2 times Indian Navy & Indian Army SSB Recommended candidate among 12000+ candidates,
+          My journey & experiences in variety of areas has made me more confident and hungry to learn more and more new things.
+        </p>
+        <p>
+          I believe that along with my decision making & management skills,
+          My understanding of problem solving and complex algorithms are also a growing skillset that I possess that will continue to contribute to my overall success as a 
+          developer.
+        </p>
+         <p>A Full stack developer with a vast array of knowledge in different front end & back end languages, responsive frameworks,
            databases, and best code practices. My objective is simply to be the best developer that I can be and to contribute to the 
            technology industry all that I know and can do. I am dedicated to perfecting my craft by learning from more seasoned developers,
             remaining humble, and continuously making strides to learn all that I can about development.</p>
-          <p>
-            From being a Mech student at GLA University, To become a 2 time IAF & Indian Army SSB Recommended candidate,I believe that along with my decision making & management skills,
-            My understanding of problem solving and complex algorithms are also a growing skillset that I possess that will continue to contribute to my overall success as a 
-             developer.</p>
         <button class="btn w-50">
-          <a href="#">Know More </a>
+          <a href="./knowmore.html">Know More </a>
         </button>
       </div>
     </div>
@@ -193,23 +199,23 @@
    <!-------------------------------------------------------------Contact  Start------------------------------------------------------------>
    <div id="contact" class=" offset w-50 mx-auto mt-5 mb-5">
     <div class="post-heading text-center">
-      <h3 class="display-4 font-weight-bold">Contact Us</h3>
+      <h3 class="display-4 font-weight-bold">Contact Me</h3>
       <hr class="w-50 mx-auto pb-5">
     </div>
-    <form action="/action_page.php">
+    <form action="mailto:abhishek.sadhu07@gmail.com" method="post" enctype="text/plain">
       <div class="form-group">
-        <label for="email">Full Name:</label>
-        <input type="email" class="form-control" id="email">
+        <label for="text">Full Name:</label>
+        <input type="text" class="form-control" id="name">
       </div>
       <div class="form-group">
         <label for="email">Email address:</label>
         <input type="email" class="form-control" id="email">
       </div>
       <div class="form-group">
-        <label for="email">Your Message:</label>
+        <label for="text">Your Message:</label>
         <textarea class="form-control"></textarea>
       </div>
-      <button type="submit" class="btn btn-dark ml-2">Sent</button>
+      <button id= "submit" type="submit" class="btn btn-dark ml-2">Sent</button>
     </form>
   </div>
   <!-------------------------------------------------------------Contact  End-------------------------------------------------------------->
