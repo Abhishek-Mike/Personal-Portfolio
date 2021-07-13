@@ -10,8 +10,9 @@ Link ----> https://abhishek-mike.github.io/Personal-Portfolio/
 5) 'Know More' details to be added
 6) 'Clients' details page to be added
 7)  Non-Hosted - JS Projects to be added
-8) headlink alignment bug
+8)  headlink alignment bug
+9)  Know more to be added
 
-#Completed
-mailto
-knowmore updated
+#Completed tasks
+1) mailto at sent
+2) About me added
